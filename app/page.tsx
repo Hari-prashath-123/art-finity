@@ -100,6 +100,20 @@ export default function Home() {
             Register Now
           </a>
         </div>
+
+        {/* Down arrow scroll button - center bottom of hero */}
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-8 opacity-0" data-animate="animate-fade-in">
+          <button
+            onClick={() => scrollToSection("about")}
+            aria-label="Scroll to About section"
+            className="w-14 h-14 rounded-full flex items-center justify-center bg-white/5 border border-white/10 hover:bg-white/10 transition-shadow shadow-md"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="down-arrow">
+              <path d="M12 5v14" />
+              <path d="M19 12l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
       </section>
 
       {/* ABOUT SECTION */}
