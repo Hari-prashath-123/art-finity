@@ -15,7 +15,12 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Art Finity",
   description: "Art Finity Event - Image & Video Generation",
-    generator: 'v0.app'
+    generator: 'v0.app',
+    icons: {
+      icon: '/art-finitylogo.png',
+      shortcut: '/art-finitylogo.png',
+      apple: '/art-finitylogo.png'
+    }
 }
 
 export default function RootLayout({

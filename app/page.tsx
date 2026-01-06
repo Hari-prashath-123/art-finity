@@ -131,6 +131,14 @@ export default function Home() {
               <strong>Certificates</strong> will be provided to all participants.
             </p>
           </div>
+          <div className="mt-8 opacity-0" data-animate="animate-fade-in">
+            <img
+              src="/ART%20FINITY%20POSTER.png"
+              alt="Art Finity poster"
+              loading="lazy"
+              className="mx-auto w-full max-w-3xl rounded-lg shadow-lg"
+            />
+          </div>
         </div>
       </section>
 
@@ -356,7 +364,7 @@ export default function Home() {
       {/* PROMINENT COPY BLOCK */}
       <section id="prominent-copy" className="py-32 px-4">
         <div className="max-w-5xl mx-auto text-center opacity-0" data-animate="animate-slide-left">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight">Agen Club</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 tracking-tight">Agen Club x Art Nexus Club</h1>
 
           <p className="text-xl text-gray-300 mb-6 max-w-3xl mx-auto">
             A student-run creative &amp; tech collective — where art, AI and storytelling collide.
@@ -369,7 +377,7 @@ export default function Home() {
           </div>
 
           <p className="text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto">
-            Agen Club organises Art Finity to bring creators and technologists together — build character-driven images,
+            Agen Club and Art Nexus club organises Art Finity to bring creators and technologists together — build character-driven images,
             transform them into motion stories, and share your creative vision.
           </p>
         </div>
