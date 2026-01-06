@@ -31,10 +31,18 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${inter.className} bg-black text-white antialiased`}>
-        <div className="fixed top-4 right-4 z-50">
+        <div className="fixed top-4 right-4 z-50 flex items-center gap-3">
           <img
             src="/agen%20club%20logo.jpg"
             alt="Agen Club logo"
+            className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border border-white/10 shadow-lg"
+          />
+          <span className="text-white/80 text-lg md:text-2xl font-semibold select-none" aria-hidden>
+            ×
+          </span>
+          <img
+            src="/art-nexus%20logo.jpg"
+            alt="Art Nexus logo"
             className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover border border-white/10 shadow-lg"
           />
         </div>

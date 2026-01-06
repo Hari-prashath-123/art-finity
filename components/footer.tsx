@@ -11,6 +11,8 @@ export function Footer() {
             <div className="space-y-2 text-gray-400">
               <p>Email: hariprasath.ad23@krct.ac.in</p>
               <p>Phone: +91 99442 27061    </p>
+              <p>Email: Omprakash.ad23@krct.ac.in</p>
+              <p>Phone: +91  877 869 9252    </p>
             </div>
           </div>
           <div className="flex flex-col md:items-end">
@@ -22,6 +24,14 @@ export function Footer() {
             >
               <Instagram className="w-6 h-6" />
               <span>@_agen_club</span>
+            </Link>
+            <Link
+              href="https://www.instagram.com/art_nexus_club?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+              className="flex items-center text-xl hover:text-purple-400 transition-colors mb-4 leading-4 gap-2 text-center underline"
+            >
+              <Instagram className="w-6 h-6" />
+              <span>@art_nexus_club</span>
             </Link>
             <div className="flex gap-4">
               
