@@ -81,7 +81,7 @@ export default function Home() {
         </p>
 
         <p className="text-lg text-gray-400 mb-12 opacity-0 delay-300" data-animate="animate-fade-in">
-          2nd floor outside lab
+          2nd floor outside lab - Circuit Block 
         </p>
 
         <div className="flex gap-6 opacity-0 delay-500" data-animate="animate-slide-up">
@@ -143,6 +143,9 @@ export default function Home() {
             </p>
             <p>
               <strong>Certificates</strong> will be provided to all participants.
+            </p>
+            <p>
+              <strong>Cash Prize</strong> for top 3 Winners.
             </p>
           </div>
           <div className="mt-8 opacity-0" data-animate="animate-fade-in">
