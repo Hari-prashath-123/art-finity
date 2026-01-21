@@ -41,6 +41,7 @@ export function Footer() {
           </div>
         </div>
         <div className="text-center text-gray-500 text-sm pt-8 border-t border-white/5">
+          <p>&copy; ART-FINITY 2026 integrates national AI priorities with emerging creative domains such as gaming and fantasy, enabling students to explore the future of AI-powered digital experiences.</p>
           <p>&copy; Art Finity — All Rights Reserved.</p>
         </div>
       </div>

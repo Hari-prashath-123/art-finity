@@ -2,6 +2,7 @@
 
 import { useEffect } from "react"
 import { Footer } from "@/components/footer"
+import RegistrationCount from "@/components/registration-count"
 import { ImageIcon, Video } from "lucide-react"
 
 function useIntersectionObserver() {
@@ -73,15 +74,18 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-black to-black -z-10" />
 
         <h1 className="text-6xl md:text-8xl font-bold mb-6 tracking-tighter opacity-0" data-animate="animate-reveal">
-          Art Finity
+          ART FINITY 
         </h1>
+        <p className="text-lg text-gray-400 mb-12 opacity-0 delay-300" data-animate="animate-fade-in">
+          AI ART HACKATHON - 2026
+        </p>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-2 opacity-0 delay-200" data-animate="animate-fade-in">
-          Coming 27th • 9:00 AM – 4:00 PM
+          Coming 29th • 9:00 AM – 4:00 PM
         </p>
 
         <p className="text-lg text-gray-400 mb-12 opacity-0 delay-300" data-animate="animate-fade-in">
-          2nd floor outside lab - Circuit Block 
+          AI × Creativity × Innovation
         </p>
 
         <div className="flex gap-6 opacity-0 delay-500" data-animate="animate-slide-up">
@@ -116,7 +120,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ABOUT SECTION */}
       <section id="about" className="py-24 px-4 max-w-4xl mx-auto text-center">
         <div className="opacity-0" data-animate="animate-slide-left">
           <h2 className="text-3xl font-bold mb-8">About The Event</h2>
@@ -130,22 +133,34 @@ export default function Home() {
           </div>
 
           <p className="text-xl text-gray-300 leading-relaxed mb-6">
-            Art Finity is a creative showcase designed to push the boundaries of digital expression. Join us for a day
-            of innovation where technology meets artistry through image and video generation challenges.
+            ART-FINITY 2026 is an AI-focused creative innovation competition aimed at exploring the intersection of
+            Artificial Intelligence and digital creativity. The event provides a platform for students to demonstrate
+            their skills in AI-powered image and video generation, prompt engineering, and creative problem-solving,
+            while promoting the ethical and responsible use of AI technologies.
+          </p>
+          <p className="text-xl text-gray-300 leading-relaxed mb-6">
+            Participants will engage in hands-on challenges that emphasize innovation, originality, and real-world
+            applicability of AI in creative domains, contributing to the development of an AI-ready workforce.
           </p>
 
           <div className="space-y-4 text-lg text-gray-300 mb-12">
             <p>
-              <strong>Max team size: 2.</strong> Individual participation also allowed.
+              <strong>Team Size:</strong> Maximum 2 members (Individual participation is also permitted)
             </p>
             <p>
-              <strong>Registration fee:</strong> ₹100 per participant.
+              <strong>Registration Fee:</strong> ₹100 per participant
             </p>
             <p>
-              <strong>Certificates</strong> will be provided to all participants.
+              <strong>Participation Certificates:</strong> Provided to all registered participants
             </p>
             <p>
-              <strong>Cash Prize</strong> for top 3 Winners.
+              <strong>Awards:</strong> Cash prizes for the top 3 winning teams
+            </p>
+            <p>
+              <strong>Registration:</strong> Limited number of teams – Register early
+            </p>
+            <p>
+              <strong>Venue:</strong> K. Ramakrishnan College of Technology, Circuit Block 2nd Floor, Lab
             </p>
           </div>
           <div className="mt-8 opacity-0" data-animate="animate-fade-in">
@@ -156,6 +171,9 @@ export default function Home() {
               className="mx-auto w-full max-w-3xl rounded-lg shadow-lg"
             />
           </div>
+          {/* <div className="mt-6 opacity-0" data-animate="animate-fade-in">
+            <RegistrationCount sheetId="1M1JsujO8yRzH66eVWPquFDlSePCST9IM-THuATbMmVw" gid="782485396" />
+          </div> */}
         </div>
       </section>
 
@@ -182,7 +200,7 @@ export default function Home() {
                 <ul className="space-y-3 text-gray-300 mb-6">
                   <li className="flex items-start gap-2">
                     <span className="text-purple-500 mt-1">•</span>
-                    <span>Character design event (gaming/fantasy/original)</span>
+                    <span>Character design event (Anything Matches t)</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <span className="text-purple-500 mt-1">•</span>
@@ -236,6 +254,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* THEMES SECTION */}
+      <section id="themes" className="py-24 px-4 bg-black/5">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-4xl font-bold mb-8 text-center opacity-0" data-animate="animate-slide-left">
+            Themes of ART-FINITY 2026 – AI × Creativity × Innovation
+          </h2>
+
+          <div className="space-y-8 text-lg text-gray-300 mt-8">
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">1. Safe and Trusted AI</h3>
+              <p>
+                Exploring the ethical, responsible, and transparent use of Artificial Intelligence in creative
+                applications. This theme emphasizes bias awareness, content authenticity, and responsible deployment
+                of AI-generated media.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">2. Human Capital for an AI-Ready Workforce</h3>
+              <p>
+                Empowering students with practical exposure to AI-driven creative tools such as generative models,
+                prompt engineering, and AI-assisted design, thereby preparing them for emerging careers in AI and
+                digital innovation.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">3. Science and AI-Enabled Research &amp; Development</h3>
+              <p>
+                Encouraging experimental and research-oriented approaches in AI-based art and media generation,
+                fostering innovation through the application of machine learning models in creative problem-solving.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">4. Resilience, Innovation &amp; Efficiency</h3>
+              <p>
+                Highlighting how AI enhances creative workflows by improving efficiency, adaptability, and
+                innovation in digital content creation and design processes.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">5. Inclusion and Social Empowerment</h3>
+              <p>
+                Demonstrating the role of AI in promoting inclusive creativity, accessibility, and social awareness
+                through digital art, storytelling, and media that address societal challenges.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">6. Democratizing AI Resources</h3>
+              <p>
+                Promoting awareness and usage of open-source, low-code, and no-code AI platforms, making AI tools
+                accessible to students from diverse academic and socio-economic backgrounds.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">7. Economic Growth and Social Good</h3>
+              <p>
+                Showcasing AI-driven creative solutions that support entrepreneurship, digital economy growth, and
+                socially impactful innovation.
+              </p>
+            </div>
+
+            <div className="opacity-0" data-animate="animate-fade-in">
+              <h3 className="text-xl font-semibold mb-2">8. Creative AI in Gaming, Fantasy &amp; Original Storytelling</h3>
+              <p>
+                Focusing on the application of Artificial Intelligence in game design, fantasy world-building,
+                character creation, and original storytelling. This theme encourages participants to leverage AI for
+                interactive narratives, virtual environments, concept art, and imaginative content, fostering
+                originality, innovation, and next-generation creative experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ABOUT SECTION */}
       {/* Sponsors SECTION */}
       <section id="sponsors" className="py-24 px-4 sponsors-section">
         <div className="max-w-6xl mx-auto text-center">
@@ -397,6 +495,17 @@ export default function Home() {
             Agen Club and Art Nexus club organises Art Finity to bring creators and technologists together — build character-driven images,
             transform them into motion stories, and share your creative vision.
           </p>
+          <div className="mt-8">
+            <a
+              href="https://chat.whatsapp.com/BughR6bYEkeIBjZcjlB4Wq"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 bg-green-500 hover:bg-green-600 text-black font-medium rounded-md transition"
+              aria-label="Join the Art Finity WhatsApp group"
+            >
+              Join WhatsApp Group
+            </a>
+          </div>
         </div>
       </section>
 
