@@ -81,7 +81,7 @@ export default function Home() {
         </p>
 
         <p className="text-xl md:text-2xl text-gray-300 mb-2 opacity-0 delay-200" data-animate="animate-fade-in">
-          Coming 29th • 9:00 AM – 4:00 PM
+          Coming 28th • 9:00 AM – 4:00 PM
         </p>
 
         <p className="text-lg text-gray-400 mb-12 opacity-0 delay-300" data-animate="animate-fade-in">
@@ -389,7 +389,7 @@ export default function Home() {
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 bg-white rounded-full" />
               <p>
-                Use of external AI tools is <strong>not permitted</strong>.
+                Use of external websites to download content is <strong>not permitted</strong>.
               </p>
             </div>
             <div className="flex items-center gap-3">
